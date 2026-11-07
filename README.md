@@ -27,6 +27,6 @@ python scripts/analyze_results.py results/final_v1 results/analysis_final_v1
 - `scripts/`: measurement, independent NumPy validation and analysis tools.
 - `results/final_v1/`: 600 raw measurements, environment, plan and resource logs.
 - `results/analysis_final_v1/`: aggregated CSV tables and figures.
-- `report/Assignment03_Colella_Report.docx`: editable report.
+- `report/Assignment03_Colella_Report.pdf`: editable report.
 
 At n=1024, eight workers reduce median runtime from 760.943 to 229.886 ms (3.31x speedup). See the report for variability, timing boundaries and the unusual n=512 baseline behaviour. Analysis uses the median of three per-fork medians; memory is sampled whole-process peak RSS.
