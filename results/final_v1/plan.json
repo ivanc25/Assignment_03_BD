@@ -1,0 +1,505 @@
+{
+  "created_utc": "2026-11-07T13:38:29.690466+00:00",
+  "sizes": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "parallel_thread_counts": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "forks": 3,
+  "warmups_per_process": 20,
+  "measurements_per_process": 10,
+  "order_seed": 20261107,
+  "pause_between_processes_s": 2.0,
+  "timeout_per_process_s": 120,
+  "rss_budget_mib": 1024,
+  "java_heap_max_mib": 512,
+  "jobs": [
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 128,
+      "threads": 2,
+      "order": 1,
+      "directory": "fork01_parallel_n128_p2"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 256,
+      "threads": 2,
+      "order": 2,
+      "directory": "fork01_parallel_n256_p2"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 256,
+      "threads": 1,
+      "order": 3,
+      "directory": "fork01_parallel_n256_p1"
+    },
+    {
+      "fork": 1,
+      "method": "sequential",
+      "n": 512,
+      "threads": 1,
+      "order": 4,
+      "directory": "fork01_sequential_n512_p1"
+    },
+    {
+      "fork": 1,
+      "method": "sequential",
+      "n": 256,
+      "threads": 1,
+      "order": 5,
+      "directory": "fork01_sequential_n256_p1"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 512,
+      "threads": 4,
+      "order": 6,
+      "directory": "fork01_parallel_n512_p4"
+    },
+    {
+      "fork": 1,
+      "method": "sequential",
+      "n": 128,
+      "threads": 1,
+      "order": 7,
+      "directory": "fork01_sequential_n128_p1"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 1024,
+      "threads": 8,
+      "order": 8,
+      "directory": "fork01_parallel_n1024_p8"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 256,
+      "threads": 4,
+      "order": 9,
+      "directory": "fork01_parallel_n256_p4"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 1024,
+      "threads": 1,
+      "order": 10,
+      "directory": "fork01_parallel_n1024_p1"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 1024,
+      "threads": 2,
+      "order": 11,
+      "directory": "fork01_parallel_n1024_p2"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 128,
+      "threads": 4,
+      "order": 12,
+      "directory": "fork01_parallel_n128_p4"
+    },
+    {
+      "fork": 1,
+      "method": "sequential",
+      "n": 1024,
+      "threads": 1,
+      "order": 13,
+      "directory": "fork01_sequential_n1024_p1"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 256,
+      "threads": 8,
+      "order": 14,
+      "directory": "fork01_parallel_n256_p8"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 512,
+      "threads": 1,
+      "order": 15,
+      "directory": "fork01_parallel_n512_p1"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 128,
+      "threads": 8,
+      "order": 16,
+      "directory": "fork01_parallel_n128_p8"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 128,
+      "threads": 1,
+      "order": 17,
+      "directory": "fork01_parallel_n128_p1"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 512,
+      "threads": 8,
+      "order": 18,
+      "directory": "fork01_parallel_n512_p8"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 512,
+      "threads": 2,
+      "order": 19,
+      "directory": "fork01_parallel_n512_p2"
+    },
+    {
+      "fork": 1,
+      "method": "parallel",
+      "n": 1024,
+      "threads": 4,
+      "order": 20,
+      "directory": "fork01_parallel_n1024_p4"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 128,
+      "threads": 4,
+      "order": 21,
+      "directory": "fork02_parallel_n128_p4"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 512,
+      "threads": 4,
+      "order": 22,
+      "directory": "fork02_parallel_n512_p4"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 256,
+      "threads": 4,
+      "order": 23,
+      "directory": "fork02_parallel_n256_p4"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 1024,
+      "threads": 1,
+      "order": 24,
+      "directory": "fork02_parallel_n1024_p1"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 128,
+      "threads": 8,
+      "order": 25,
+      "directory": "fork02_parallel_n128_p8"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 1024,
+      "threads": 2,
+      "order": 26,
+      "directory": "fork02_parallel_n1024_p2"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 512,
+      "threads": 1,
+      "order": 27,
+      "directory": "fork02_parallel_n512_p1"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 128,
+      "threads": 1,
+      "order": 28,
+      "directory": "fork02_parallel_n128_p1"
+    },
+    {
+      "fork": 2,
+      "method": "sequential",
+      "n": 128,
+      "threads": 1,
+      "order": 29,
+      "directory": "fork02_sequential_n128_p1"
+    },
+    {
+      "fork": 2,
+      "method": "sequential",
+      "n": 1024,
+      "threads": 1,
+      "order": 30,
+      "directory": "fork02_sequential_n1024_p1"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 512,
+      "threads": 8,
+      "order": 31,
+      "directory": "fork02_parallel_n512_p8"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 256,
+      "threads": 1,
+      "order": 32,
+      "directory": "fork02_parallel_n256_p1"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 128,
+      "threads": 2,
+      "order": 33,
+      "directory": "fork02_parallel_n128_p2"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 512,
+      "threads": 2,
+      "order": 34,
+      "directory": "fork02_parallel_n512_p2"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 1024,
+      "threads": 4,
+      "order": 35,
+      "directory": "fork02_parallel_n1024_p4"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 256,
+      "threads": 8,
+      "order": 36,
+      "directory": "fork02_parallel_n256_p8"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 256,
+      "threads": 2,
+      "order": 37,
+      "directory": "fork02_parallel_n256_p2"
+    },
+    {
+      "fork": 2,
+      "method": "parallel",
+      "n": 1024,
+      "threads": 8,
+      "order": 38,
+      "directory": "fork02_parallel_n1024_p8"
+    },
+    {
+      "fork": 2,
+      "method": "sequential",
+      "n": 512,
+      "threads": 1,
+      "order": 39,
+      "directory": "fork02_sequential_n512_p1"
+    },
+    {
+      "fork": 2,
+      "method": "sequential",
+      "n": 256,
+      "threads": 1,
+      "order": 40,
+      "directory": "fork02_sequential_n256_p1"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 128,
+      "threads": 8,
+      "order": 41,
+      "directory": "fork03_parallel_n128_p8"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 512,
+      "threads": 2,
+      "order": 42,
+      "directory": "fork03_parallel_n512_p2"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 256,
+      "threads": 2,
+      "order": 43,
+      "directory": "fork03_parallel_n256_p2"
+    },
+    {
+      "fork": 3,
+      "method": "sequential",
+      "n": 128,
+      "threads": 1,
+      "order": 44,
+      "directory": "fork03_sequential_n128_p1"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 256,
+      "threads": 1,
+      "order": 45,
+      "directory": "fork03_parallel_n256_p1"
+    },
+    {
+      "fork": 3,
+      "method": "sequential",
+      "n": 256,
+      "threads": 1,
+      "order": 46,
+      "directory": "fork03_sequential_n256_p1"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 128,
+      "threads": 4,
+      "order": 47,
+      "directory": "fork03_parallel_n128_p4"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 1024,
+      "threads": 2,
+      "order": 48,
+      "directory": "fork03_parallel_n1024_p2"
+    },
+    {
+      "fork": 3,
+      "method": "sequential",
+      "n": 1024,
+      "threads": 1,
+      "order": 49,
+      "directory": "fork03_sequential_n1024_p1"
+    },
+    {
+      "fork": 3,
+      "method": "sequential",
+      "n": 512,
+      "threads": 1,
+      "order": 50,
+      "directory": "fork03_sequential_n512_p1"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 1024,
+      "threads": 4,
+      "order": 51,
+      "directory": "fork03_parallel_n1024_p4"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 512,
+      "threads": 1,
+      "order": 52,
+      "directory": "fork03_parallel_n512_p1"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 256,
+      "threads": 8,
+      "order": 53,
+      "directory": "fork03_parallel_n256_p8"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 128,
+      "threads": 2,
+      "order": 54,
+      "directory": "fork03_parallel_n128_p2"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 256,
+      "threads": 4,
+      "order": 55,
+      "directory": "fork03_parallel_n256_p4"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 512,
+      "threads": 8,
+      "order": 56,
+      "directory": "fork03_parallel_n512_p8"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 128,
+      "threads": 1,
+      "order": 57,
+      "directory": "fork03_parallel_n128_p1"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 1024,
+      "threads": 1,
+      "order": 58,
+      "directory": "fork03_parallel_n1024_p1"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 512,
+      "threads": 4,
+      "order": 59,
+      "directory": "fork03_parallel_n512_p4"
+    },
+    {
+      "fork": 3,
+      "method": "parallel",
+      "n": 1024,
+      "threads": 8,
+      "order": 60,
+      "directory": "fork03_parallel_n1024_p8"
+    }
+  ]
+}

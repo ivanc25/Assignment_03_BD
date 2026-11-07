@@ -1,0 +1,58 @@
+{
+  "python_version": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\Ivan\\Desktop\\UNIVERSITY\\1.1. ERASMUS\\ERASMUS MAGISTRALE\\3. Esami\\BIG DATA\\Teoria\\0. Assignments\\3 Assignment\\Assignment_03_BD\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "physical_cores": 4,
+  "logical_processors": 8,
+  "ram_bytes": 16993210368,
+  "psutil_version": "7.2.2",
+  "java": {
+    "command": [
+      "java",
+      "-version"
+    ],
+    "return_code": 0,
+    "stdout": "",
+    "stderr": "openjdk version \"21.0.12.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-21.0.12.1+1 (build 21.0.12.1+1-LTS, mixed mode, sharing)\n"
+  },
+  "javac": {
+    "command": [
+      "javac",
+      "-version"
+    ],
+    "return_code": 0,
+    "stdout": "javac 21.0.12.1\n",
+    "stderr": ""
+  },
+  "git_commit": {
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "return_code": 0,
+    "stdout": "b046427df6482a86800532c3440e99338f4953bf\n",
+    "stderr": ""
+  },
+  "git_status": {
+    "command": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "return_code": 0,
+    "stdout": "?? results/\n",
+    "stderr": ""
+  },
+  "python_dependencies": {
+    "command": [
+      "C:\\Users\\Ivan\\Desktop\\UNIVERSITY\\1.1. ERASMUS\\ERASMUS MAGISTRALE\\3. Esami\\BIG DATA\\Teoria\\0. Assignments\\3 Assignment\\Assignment_03_BD\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pip",
+      "freeze"
+    ],
+    "return_code": 0,
+    "stdout": "contourpy==1.4.0\ncycler==0.12.1\nfonttools==4.68.0\nkiwisolver==1.5.1\nmatplotlib==3.11.2\nnumpy==2.5.4\npackaging==26.3\npillow==13.0.0\npsutil==7.2.2\npyparsing==3.3.3\npython-dateutil==4.0.0\ntzdata==2026.6\n",
+    "stderr": ""
+  }
+}

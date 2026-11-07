@@ -1,0 +1,11 @@
+method,n,dtype,threads,repetition,warmups,seed_a,seed_b,time_ms,verified
+parallel,256,double,2,1,20,2026,2027,5.396000,true
+parallel,256,double,2,2,20,2026,2027,4.844000,true
+parallel,256,double,2,3,20,2026,2027,4.660900,true
+parallel,256,double,2,4,20,2026,2027,5.295300,true
+parallel,256,double,2,5,20,2026,2027,4.575000,true
+parallel,256,double,2,6,20,2026,2027,4.659300,true
+parallel,256,double,2,7,20,2026,2027,7.231400,true
+parallel,256,double,2,8,20,2026,2027,4.520600,true
+parallel,256,double,2,9,20,2026,2027,5.183900,true
+parallel,256,double,2,10,20,2026,2027,4.818300,true

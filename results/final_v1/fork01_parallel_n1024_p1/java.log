@@ -1,0 +1,32 @@
+Method=parallel, n=1024, threads=1, warmups=20, repetitions=10
+Warm-up 1/20
+Warm-up 2/20
+Warm-up 3/20
+Warm-up 4/20
+Warm-up 5/20
+Warm-up 6/20
+Warm-up 7/20
+Warm-up 8/20
+Warm-up 9/20
+Warm-up 10/20
+Warm-up 11/20
+Warm-up 12/20
+Warm-up 13/20
+Warm-up 14/20
+Warm-up 15/20
+Warm-up 16/20
+Warm-up 17/20
+Warm-up 18/20
+Warm-up 19/20
+Warm-up 20/20
+Run 1/10: 737.885 ms
+Run 2/10: 775.194 ms
+Run 3/10: 1023.556 ms
+Run 4/10: 875.154 ms
+Run 5/10: 727.129 ms
+Run 6/10: 694.518 ms
+Run 7/10: 703.603 ms
+Run 8/10: 737.564 ms
+Run 9/10: 686.618 ms
+Run 10/10: 710.686 ms
+Saved: C:\Users\Ivan\Desktop\UNIVERSITY\1.1. ERASMUS\ERASMUS MAGISTRALE\3. Esami\BIG DATA\Teoria\0. Assignments\3 Assignment\Assignment_03_BD\results\final_v1\fork01_parallel_n1024_p1\measurements.csv
