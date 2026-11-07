@@ -1,0 +1,20 @@
+﻿# IDE settings
+.idea/
+*.iml
+.vscode/
+
+# Java build output
+out/
+target/
+build/
+*.class
+
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Operating system files
+.DS_Store
+Thumbs.db
